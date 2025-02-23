@@ -15,6 +15,10 @@ const simpleItems = [
 	"./SimpleApp/simplereact1.png",
 	"./SimpleApp/simplereact2.png",
 ];
+const weatherItems = [
+	"./WeatherApp/weather1.png",
+	"./WeatherApp/weathergif.gif",
+];
 
 // Gamedev items
 const nuclearCloneItems = [
@@ -113,12 +117,12 @@ const projects = [
 	},
 	{
 		category: "Web",
-		title: "Hacker News App",
+		title: "Weather App",
 		description:
-			"An app to search about articles provided via Hacker News API ",
+			"An app to see weather information about places provided by the user using a Weather API. ",
 		theme: "",
-		media: simpleItems,
-		url: "https://github.com/Tuzapeno/simple-api-react",
+		media: weatherItems,
+		url: "https://github.com/Tuzapeno/weather-report-react",
 		urlMsg: "(source code)",
 	},
 ];

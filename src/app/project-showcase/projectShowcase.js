@@ -37,11 +37,7 @@ function Project({
 					</a>
 				</p>
 				<p className="text-lg text-gray-600 mb-8">
-					{theme === "" ? (
-						<div></div>
-					) : (
-						<strong>Theme: {theme}</strong>
-					)}
+					{!theme === "" && <strong>Theme: {theme}</strong>}
 				</p>
 				<div className="flex flex-wrap justify-center items-center gap-4">
 					{media.map((src, index) => (
