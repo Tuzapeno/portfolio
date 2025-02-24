@@ -20,6 +20,12 @@ const weatherItems = [
 	"./WeatherApp/weathergif.gif",
 ];
 
+const youtubeItems = [
+	"./Youtube/youtube1.png",
+	"./Youtube/youtube2.png",
+	"./Youtube/youtubegif.gif",
+];
+
 // Gamedev items
 const nuclearCloneItems = [
 	"./NuclearClone/nuclear1.png",
@@ -123,6 +129,26 @@ const projects = [
 		theme: "",
 		media: weatherItems,
 		url: "https://github.com/Tuzapeno/weather-report-react",
+		urlMsg: "(source code)",
+	},
+	{
+		category: "Web",
+		title: "Personal Youtube",
+		description:
+			"An app to display youtube search results via Youtube Data API v3",
+		theme: "",
+		media: youtubeItems,
+		url: "https://github.com/Tuzapeno/personalyoutube",
+		urlMsg: "(source code)",
+	},
+	{
+		category: "Web",
+		title: "Hacker Stories",
+		description:
+			"Simple web app to search and show articles from Hacker Stories",
+		theme: "",
+		media: simpleItems,
+		url: "https://github.com/Tuzapeno/simple-api-react",
 		urlMsg: "(source code)",
 	},
 ];
