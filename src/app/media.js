@@ -9,6 +9,7 @@ export const WEB_MEDIA = {
     "./Youtube/youtubegif.gif",
   ],
   SIMPLE: ["./SimpleApp/simplereact1.png", "./SimpleApp/simplereact2.png"],
+  NOTES: ["./Notes/notes-1.png", "./Notes/notes-gif.gif"],
 };
 
 export const GAME_MEDIA = {
