@@ -127,6 +127,26 @@ export const projectGroups = [
     name: "Game development",
     projects: [
       {
+        slug: "goofy-mallows",
+        title: "Goofy Mallows",
+        type: "Game jam · 2026",
+        summary: "An arena brawler where up to four marshmallows fight over masks that grant attacks.",
+        description:
+          "Made in Godot for Global Game Jam 2026 in Curitiba. Grab a mask to gain an attack, lose it when you take a hit, and get knocked out if you’re hit without one. I worked on wrapping players around the edges of the arena and fixing where and when masks spawn.",
+        tools: ["Godot", "Aseprite"],
+        theme: "Mask",
+        media: [
+          {
+            src: "/GoofyMallows/title-art.webp",
+            alt: "Goofy Mallows title art with three collectible masks",
+          },
+        ],
+        links: [
+          { href: "https://globalgamejam.org/games/2026/goofy-mallows-3", label: "Global Game Jam page" },
+          { href: "https://github.com/ViniTeider/GoofyMallows", label: "Source code" },
+        ],
+      },
+      {
         slug: "nicas-bubble-tea",
         title: "Nica’s Bubble Tea",
         type: "Game jam · 2025",
