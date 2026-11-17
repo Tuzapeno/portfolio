@@ -10,7 +10,6 @@ export const projectGroups = [
         description:
           "I built Notes to learn full-stack development with React, Laravel, and PostgreSQL. The project covers API authentication, cookies and tokens, permissions, and protected routes.",
         tools: ["React", "Laravel", "PostgreSQL"],
-        cover: "/Notes/cover.webp",
         media: [
           { src: "/Notes/notes-1.png", alt: "Notes organizer with colorful note cards" },
           { src: "/Notes/notes-gif.gif", alt: "Notes app walkthrough" },
@@ -28,6 +27,7 @@ export const projectGroups = [
         description:
           "I worked on this simulator with Guilherme Schwarz at PUCPR. Students can step through assembly-like instructions and see how a processor uses an instruction pipeline and memory cache.",
         tools: ["JavaScript"],
+        cover: "/LMC/lmc1.png",
         media: [
           { src: "/LMC/lmc1.png", alt: "Little Man Computer simulator interface" },
           { src: "/LMC/lmcgif.gif", alt: "Little Man Computer simulator walkthrough" },
