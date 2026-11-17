@@ -64,7 +64,9 @@ export default async function ProjectPage({ params }) {
         )}
       </header>
 
-      <ProjectGallery media={media.map(({ src, alt }) => ({ src: assetPath(src), alt }))} />
+      {media?.length > 0 && (
+        <ProjectGallery media={media.map(({ src, alt }) => ({ src: assetPath(src), alt }))} />
+      )}
     </article>
   );
 }

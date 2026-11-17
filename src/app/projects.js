@@ -113,6 +113,14 @@ export const projectGroups = [
           { href: "https://github.com/Tuzapeno/simple-api-react", label: "Source code" },
         ],
       },
+      {
+        slug: "plantae",
+        title: "Plantae",
+        type: "Applied robotics · 2021",
+        summary: "An automated greenhouse with web-based crop monitoring.",
+        description:
+          "Built for the Applied Robotics course in the TECPUC technical program. Plantae is an automated greenhouse that lets users monitor crops through a web interface.",
+      },
     ],
   },
   {

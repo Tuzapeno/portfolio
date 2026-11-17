@@ -13,6 +13,7 @@ export function SiteHeader() {
         <span>Arthur Salerno</span>
       </Link>
       <nav aria-label="Main navigation" className="site-nav">
+        <Link href="/#experience">Experience</Link>
         <Link href="/#work">Work</Link>
         <Link href="/#about">About</Link>
       </nav>

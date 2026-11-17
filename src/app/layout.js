@@ -5,11 +5,11 @@ import "./globals.css";
 
 export const metadata = {
   title: {
-    default: "Arthur Neumann Salerno — Developer",
+    default: "Arthur Neumann Salerno — PHP Developer",
     template: "%s — Arthur Neumann Salerno",
   },
   description:
-    "Arthur Neumann Salerno’s portfolio of web applications, game jam projects, and experiments.",
+    "Arthur Neumann Salerno is a PHP developer at OniLearning in Curitiba, Brazil. Explore his professional experience, web applications, and games.",
 };
 
 export default function RootLayout({ children }) {
